@@ -1,0 +1,162 @@
+### Layer Height Settings
+- Layer height: 0.2 mm
+- Initial layer height: 0.3 mm
+
+### Line Width Settings
+- Default: 0.42 mm
+- Initial layer: 0.44 mm
+- Outer wall: 0.42 mm
+- Inner wall: 0.45 mm
+- Top surface: 0.42 mm
+- Sparse infill: 0.45 mm
+- Internal solid infill: 0.42 mm
+- Support: 0.42 mm
+
+### Seam Settings
+- Seam position: Aligned
+- Seam placement away from overhangs (experimental): false
+- Smart scar for seam application: true
+- Scarf application angle threshold: 155 °
+- Scarf around entire wall: false
+- Scarf steps: 10
+- Scarf joint for inner walls: true
+- Override filament scar seam setting: false
+- Role-based wipe speed: true
+
+### Precision Settings
+- Slice gap closing radius: 0.049 mm
+- Resolution: 0.005 mm
+- Arc fitting: true
+- X-Y hole compensation: 0 mm
+- X-Y contour compensation: 0 mm
+- Auto circle contour-hole compensation: false
+- Elephant foot compensation: 0.15 mm
+- Precise Z height: false
+
+### Ironing Settings
+- Ironing Type: No ironing
+
+### Wall Generator Settings
+- Wall generator: Classic
+
+### Advanced Settings
+- Order of walls: inner/outer
+- Print infill first: false
+- Bridge flow: 0.8
+- Thick bridges: true
+- Only one wall on top surfaces: Top surfaces
+- Only one wall on first layer: false
+- Smooth speed discontinuity: true
+- Smooth coefficient: 150
+- Avoid crossing wall: true
+- Avoid crossing wall - Max detour length: 0 mm or %
+- Avoid crossing wall - Include support: false
+
+### Speed Settings
+- Slow down for overhangs: true
+- Overhang speed (10%): 0 mm/s
+- Overhang speed (25%): 50 mm/s
+- Overhang speed (50%): 30 mm/s
+- Overhang speed (75%): 10 mm/s
+- Overhang speed (100%): 10 mm/s
+- Slow down by height: false
+- Bridge: 50 mm/s
+- Gap infill: 100 mm/s
+- Support: 150 mm/s
+- Support interface: 80 mm/s
+
+### Travel Speed Settings
+- Travel: 500 mm/s
+
+### Wall Settings
+- Wall loops: 1
+- Embedding the wall into the infill: false
+- Detect thin wall: false
+
+### Top/Bottom Shell Settings
+- Top surface pattern: Monotonic
+- Top shell layers: 0
+- Top shell thickness: 1 mm
+- Top paint penetration layers: 5
+- Bottom surface pattern: Monotonic
+- Bottom shell layers: 0
+- Bottom shell thickness: 0 mm
+- Bottom paint penetration layers: 3
+- Internal solid infill pattern: Rectilinear
+
+### Acceleration Settings
+- Normal printing: 1000 mm/s²
+- Travel: 10000 mm/s²
+- Initial layer travel: 6000 mm/s²
+- Initial layer: 500 mm/s²
+- Outer wall: 500 mm/s²
+- Inner wall: 0 mm/s²
+- Top surface: 1000 mm/s²
+- Sparse infill: 100% mm/s² or %
+
+### Initial Layer Speed Settings
+- Initial layer: 60 mm/s
+- Initial layer infill: 160 mm/s
+
+### Other Layer Speed Settings
+- Outer wall: 40 mm/s
+- Inner wall: 150 mm/s
+- Small perimeters: 50% mm/s or %
+- Small perimeter threshold: 0 mm
+- Sparse infill: 270 mm/s
+- Internal solid infill: 150 mm/s
+- Vertical shell speed: 80% mm/s or %
+- Top surface: 200 mm/s
+
+### Sparse Infill Settings
+- Sparse infill density: 0 %
+
+### Advanced Infill Settings
+- Infill/Wall overlap: 0 %
+- Infill direction: 45 °
+- Bridge direction: 0 °
+- Detect narrow internal solid infill: true
+- Ensure vertical shell thickness: Enabled
+- Detect floating vertical shells: true
+
+### Special Mode Settings
+- Slicing Mode: Even-odd
+- Print sequence: By layer
+- Spiral vase: true
+- Smooth Spiral: true
+- Max XY Smoothing: 200% mm or %
+- Timelapse: Traditional
+- Fuzzy Skin: None (allow...)
+- Fuzzy skin point distance: 0.8 mm
+- Fuzzy skin thickness: 0.3 mm
+
+### Advanced Special Mode Settings
+- Use beam interlocking: false
+- Interlocking depth of a segmented region: 0 mm
+
+### G-code Output Settings
+- Reduce infill retraction: true
+
+### Prime Tower Settings
+- Enable: true
+- Skip points: true
+- Internal ribs: false
+- Width: 35 mm
+- Max speed: 90 mm/s
+- Brim width: 3 mm
+- Infill gap: 150 %
+- Rib wall: true
+- Extra rib length: 0 mm
+- Rib width: 8 mm
+- Fillet wall: true
+
+### Flush Options Settings
+- Flush into objects' infill: false
+- Flush into objects' support: true
+
+### Bed Adhesion Settings
+- Skirt loops: 0
+- Skirt height: 1 layers
+- Brim type: No-brim
+- Brim width: 5 mm
+- Brim-object gap: 0.1 mm
