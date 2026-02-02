@@ -1,2 +1,2 @@
 # 3d-printed-airfoil-dump
-project dump
+project file and settings dump for future refrence
